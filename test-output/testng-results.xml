@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23385" started-at="2020-04-17T17:52:26Z" finished-at="2020-04-17T17:52:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23385" started-at="2020-04-17T17:52:26Z" finished-at="2020-04-17T17:52:49Z">
+      <class name="io.duotech.tests.LoginTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:io.duotech.tests.LoginTest@16aa0a0a]" name="setUp" is-config="true" duration-ms="4065" started-at="2020-04-17T13:52:26Z" finished-at="2020-04-17T13:52:30Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="negativeLoginUsingPOM()[pri:0, instance:io.duotech.tests.LoginTest@16aa0a0a]" name="negativeLoginUsingPOM" duration-ms="1962" started-at="2020-04-17T13:52:30Z" finished-at="2020-04-17T13:52:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLoginUsingPOM -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:io.duotech.tests.LoginTest@16aa0a0a]" name="tearDownTest" is-config="true" duration-ms="619" started-at="2020-04-17T13:52:32Z" finished-at="2020-04-17T13:52:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:io.duotech.tests.LoginTest@16aa0a0a]" name="setUp" is-config="true" duration-ms="3541" started-at="2020-04-17T13:52:32Z" finished-at="2020-04-17T13:52:36Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="positiveLoginTest()[pri:0, instance:io.duotech.tests.LoginTest@16aa0a0a]" name="positiveLoginTest" duration-ms="593" started-at="2020-04-17T13:52:36Z" finished-at="2020-04-17T13:52:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLoginTest -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:io.duotech.tests.LoginTest@16aa0a0a]" name="tearDownTest" is-config="true" duration-ms="639" started-at="2020-04-17T13:52:36Z" finished-at="2020-04-17T13:52:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:io.duotech.tests.LoginTest@16aa0a0a]" name="setUp" is-config="true" duration-ms="3379" started-at="2020-04-17T13:52:37Z" finished-at="2020-04-17T13:52:40Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="positiveLoginUsingPOM()[pri:0, instance:io.duotech.tests.LoginTest@16aa0a0a]" name="positiveLoginUsingPOM" duration-ms="545" started-at="2020-04-17T13:52:40Z" finished-at="2020-04-17T13:52:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLoginUsingPOM -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:io.duotech.tests.LoginTest@16aa0a0a]" name="tearDownTest" is-config="true" duration-ms="640" started-at="2020-04-17T13:52:41Z" finished-at="2020-04-17T13:52:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:io.duotech.tests.LoginTest@16aa0a0a]" name="setUp" is-config="true" duration-ms="3355" started-at="2020-04-17T13:52:42Z" finished-at="2020-04-17T13:52:45Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="positiveLoginUsingPOMMethods()[pri:0, instance:io.duotech.tests.LoginTest@16aa0a0a]" name="positiveLoginUsingPOMMethods" duration-ms="3386" started-at="2020-04-17T13:52:45Z" finished-at="2020-04-17T13:52:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLoginUsingPOMMethods -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:io.duotech.tests.LoginTest@16aa0a0a]" name="tearDownTest" is-config="true" duration-ms="656" started-at="2020-04-17T13:52:48Z" finished-at="2020-04-17T13:52:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- io.duotech.tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

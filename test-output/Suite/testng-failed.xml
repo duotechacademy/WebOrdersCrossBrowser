@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="Edge Test(failed)" parallel="tests">
+    <classes>
+      <class name="io.duotech.tests.LoginTest">
+        <methods>
+          <include name="negativeLoginUsingPOM"/>
+          <include name="positiveLoginTest"/>
+          <include name="positiveLoginUsingPOM"/>
+          <include name="positiveLoginUsingPOMMethods"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="tearDownTest"/>
+          <include name="tearDownTest"/>
+        </methods>
+      </class> <!-- io.duotech.tests.LoginTest -->
+    </classes>
+  </test> <!-- Edge Test(failed) -->
+  <test name="Chrome Test(failed)" parallel="tests">
+    <classes>
+      <class name="io.duotech.tests.LoginTest">
+        <methods>
+          <include name="negativeLoginUsingPOM"/>
+          <include name="positiveLoginTest"/>
+          <include name="positiveLoginUsingPOM"/>
+          <include name="positiveLoginUsingPOMMethods"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="tearDownTest"/>
+          <include name="tearDownTest"/>
+        </methods>
+      </class> <!-- io.duotech.tests.LoginTest -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
