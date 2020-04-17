@@ -1,0 +1,5 @@
+/target/
+/.classpath
+/bin/
+/test-output/
+.DS_Store
